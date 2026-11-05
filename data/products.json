@@ -1,0 +1,123 @@
+
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 2499,
+        "description": "Comfortable wireless headphones with clear sound and long battery life.",
+        "icon": "🎧"
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "category": "Electronics",
+        "price": 3999,
+        "description": "Track your daily activity, steps and fitness goals.",
+        "icon": "⌚"
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 1799,
+        "description": "Portable speaker with rich sound for everyday use.",
+        "icon": "🔊"
+    },
+    {
+        "id": 4,
+        "name": "Laptop Stand",
+        "category": "Accessories",
+        "price": 899,
+        "description": "Adjustable stand designed for a comfortable working setup.",
+        "icon": "💻"
+    },
+    {
+        "id": 5,
+        "name": "Wireless Mouse",
+        "category": "Accessories",
+        "price": 599,
+        "description": "Ergonomic wireless mouse for smooth everyday navigation.",
+        "icon": "🖱️"
+    },
+    {
+        "id": 6,
+        "name": "USB-C Hub",
+        "category": "Accessories",
+        "price": 1299,
+        "description": "Compact hub with multiple ports for your laptop.",
+        "icon": "🔌"
+    },
+    {
+        "id": 7,
+        "name": "Desk Lamp",
+        "category": "Home",
+        "price": 799,
+        "description": "Modern LED desk lamp for reading and working.",
+        "icon": "💡"
+    },
+    {
+        "id": 8,
+        "name": "Water Bottle",
+        "category": "Home",
+        "price": 399,
+        "description": "Reusable water bottle for home, office and travel.",
+        "icon": "🧴"
+    },
+    {
+        "id": 9,
+        "name": "Notebook Set",
+        "category": "Stationery",
+        "price": 299,
+        "description": "A set of notebooks for notes, planning and journaling.",
+        "icon": "📒"
+    },
+    {
+        "id": 10,
+        "name": "Gel Pen Pack",
+        "category": "Stationery",
+        "price": 149,
+        "description": "Smooth-writing gel pens for daily writing tasks.",
+        "icon": "🖊️"
+    },
+    {
+        "id": 11,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "price": 999,
+        "description": "Non-slip exercise mat for yoga and home workouts.",
+        "icon": "🧘"
+    },
+    {
+        "id": 12,
+        "name": "Resistance Bands",
+        "category": "Fitness",
+        "price": 499,
+        "description": "Lightweight resistance bands for strength training.",
+        "icon": "🏋️"
+    },
+    {
+        "id": 13,
+        "name": "Travel Backpack",
+        "category": "Accessories",
+        "price": 1599,
+        "description": "Spacious backpack suitable for travel and everyday use.",
+        "icon": "🎒"
+    },
+    {
+        "id": 14,
+        "name": "Coffee Mug",
+        "category": "Home",
+        "price": 349,
+        "description": "Simple ceramic mug for your favourite hot beverages.",
+        "icon": "☕"
+    },
+    {
+        "id": 15,
+        "name": "Power Bank",
+        "category": "Electronics",
+        "price": 1899,
+        "description": "Portable power bank to keep your devices charged.",
+        "icon": "🔋"
+    }
+]

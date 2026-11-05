@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A searchable product listing dashboard with category filters and sorting options.">
+
+    <title>ProductHub | Product Dashboard</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <h1>ProductHub</h1>
+            <p>Discover and explore products</p>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <section class="intro">
+            <h2>Explore Our Products</h2>
+            <p>Search, filter and sort products easily.</p>
+        </section>
+
+
+        <!-- Search and Filters -->
+        <section class="controls">
+
+            <input
+                type="search"
+                id="search-input"
+                placeholder="Search products by name..."
+                aria-label="Search products by name"
+            >
+
+            <select id="category-filter" aria-label="Filter by category">
+                <option value="all">All Categories</option>
+            </select>
+
+            <select id="sort-filter" aria-label="Sort products">
+                <option value="default">Default Sorting</option>
+                <option value="name-asc">Name: A to Z</option>
+                <option value="name-desc">Name: Z to A</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+            </select>
+
+        </section>
+
+
+        <!-- Product Count -->
+        <div class="results-info">
+            <p id="product-count">Loading products...</p>
+        </div>
+
+
+        <!-- Loading Message -->
+        <p id="loading-message" class="status-message">
+            Loading products...
+        </p>
+
+
+        <!-- Error Message -->
+        <p id="error-message" class="status-message hidden" role="alert">
+            Unable to load products. Please try again.
+        </p>
+
+
+        <!-- Empty State -->
+        <div id="empty-message" class="empty-state hidden">
+            <h3>No Products Found</h3>
+            <p>Try changing your search or category filter.</p>
+        </div>
+
+
+        <!-- Product Listing -->
+        <section id="product-list" class="product-grid" aria-label="Product listings">
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 ProductHub. All rights reserved.</p>
+    </footer>
+
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
